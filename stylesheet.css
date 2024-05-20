@@ -49,6 +49,7 @@ header{
 }
 .container h1{
     color:white;
+    text-align: center;
 }
 .btn{
     background: transparent;
@@ -73,15 +74,35 @@ main{
     display: grid;
 }
 .context{
-    text-align: center;
+    place-items: center;
     font-size: 1.2rem;
-    background-color: bisque;
     font-style: italic;
-    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #jewels,#about,#contact{
     min-height: 50vh;
 }
+.jjewels{
+    width: 100%;
+}
+.jjewels h2{
+    margin-top: 30px;
+    height: fit-content;
+    text-align: center;
+}
+.square{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
 /*
 .uplink{
     font-size: 1.25rem;
